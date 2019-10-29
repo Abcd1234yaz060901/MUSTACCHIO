@@ -1,0 +1,145 @@
+
+
+/* ------------------------- */
+@media only screen and (max-width: 1200px) {
+	
+	
+}
+
+/* ------------------------- */
+@media only screen and (max-width: 992px) {
+
+    /* ------------------------- */
+
+	h1{ font-size: 4em; }
+	h2{ font-size: 3em; }
+	h3{ font-size: 2em; }
+	
+	/* ---------------------------------
+	3. MENU
+	--------------------------------- */
+	
+	header .top-menu ul.welcome-area{ padding: 0; }
+	
+	header .top-menu ul.welcome-area > li{ border: 0; }
+	
+	header .top-menu .hello-blog{ display: none; }
+	
+}
+
+
+/* ------------------------- */
+@media only screen and (max-width: 767px) {
+
+    /* ------------------------- */
+
+	p{ line-height: 1.4; }
+
+	h1{ font-size: 3em; }
+	h2{ font-size: 2.5em; }
+	h3{ font-size: 1.8em; }
+	h4{ font-size: 1.5em; }
+	h5{ font-size: 1.2em; }
+
+    /* ------------------------- */
+
+	.section{ padding: 40px 0 10px; }
+
+	
+
+	/* ---------------------------------
+	3. MENU
+	--------------------------------- */
+	
+	header .top-menu ul.welcome-area{ display: none; }
+	
+	
+	
+	/* MIDDLE AREA */
+
+	header .logo{ padding: 10px 0; height: 100px; }
+
+
+	/* BOTTOM AREA */
+	
+	header .main-menu{ text-align: left; display: none; float: none; clear: both; max-height: 400px;
+		overflow: auto; border-top: 1px solid #ccc; }
+	
+	header .main-menu > li{ display: block; float: none; border-bottom: 1px solid #ddd; }
+	
+	header .main-menu > li:last-child{ border-bottom: 0; }
+	
+	header .main-menu li > a{ display: block; line-height: 1; height: auto; padding: 15px; background: none; }
+	
+	
+	
+	/* NAV ICON */
+	
+	.menu-nav-icon{ display: inline-block; }
+
+	
+	
+	/* ---------------------------------
+	5. SINGLE POST
+	--------------------------------- */
+	
+	.blog-posts .single-post{ margin-bottom: 50px; }
+
+
+    /* ------------------------- */
+
+	.post-style-2 .image-wrapper{ padding-right: 0px; float: none; width: auto; max-width: 500px; }
+
+	.post-style-2 .post-details{ float: none; width: 100%; margin-top: 30px; }
+
+
+    /* ------------------------- */
+
+	.blog-posts .load-more-btn{ margin: 20px 0 60px; }
+
+	
+	/* ---------------------------------
+	6. SIDEBAR STYLING
+	--------------------------------- */
+
+	.sidebar-section{ margin-bottom: 30px; }
+
+	
+	
+	
+}
+/* ------------------------- */
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 479px) {
+    /* ------------------------- */
+    body{ font-size: 14px;  }
+
+/* ------------------------- */
+
+	.left-area,
+	.right-area{ float: none;  }
+
+	.width-60,
+	.width-50{ width: 100%; }
+
+	.left-area li a,
+	.right-area li a{ padding: 0 10px 0 0!important; }
+
+/* ------------------------- */
+	
+	.single-post .icons ul.social-icons{ margin-top: 10px; }
+
+
+}
+
+/* ------------------------- */
+@media only screen and (max-width: 359px) {
+	
+	
+}
+
+/* ------------------------- */
+@media only screen and (max-width: 290px) {
+	
+	
+}

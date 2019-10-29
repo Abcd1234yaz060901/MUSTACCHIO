@@ -1,0 +1,163 @@
+
+
+/* resolucion pantalla : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+	
+	
+}
+
+/* resolucion pantalla: 992px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px) {
+	
+	/* ---------------------------------
+	1.Estilos
+	--------------------------------- */
+
+	h1{ font-size: 4em; }
+	h2{ font-size: 3em; }
+	h3{ font-size: 2em; }
+	
+	/* ---------------------------------
+	3. MENU
+	--------------------------------- */
+	
+	header .top-menu ul.welcome-area{ padding: 0; }
+	
+	header .top-menu ul.welcome-area > li{ border: 0; }
+	
+	header .top-menu .hello-blog{ display: none; }
+	
+}
+
+
+/* resolucion pantalla : 767px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+	
+	/* ---------------------------------
+	1. PRIMARY STYLES
+	--------------------------------- */
+
+	p{ line-height: 1.4; }
+
+	h1{ font-size: 3em; }
+	h2{ font-size: 2.5em; }
+	h3{ font-size: 1.8em; }
+	h4{ font-size: 1.5em; }
+	h5{ font-size: 1.2em; }
+	
+	
+	
+
+	.section{ padding: 40px 0 10px; }
+
+	
+
+	/* ---------------------------------
+	3. MENU
+	--------------------------------- */
+	
+	header .top-menu ul.welcome-area{ display: none; }
+	
+	
+	/* area de busqueda */
+	
+	header .right-area{ float: none; }
+	
+	header .src-area{ float: none; border: 0; }
+	
+	
+	
+	
+	
+	/* Area del medio*/
+
+	header .logo{ padding: 10px 0; height: 100px; }
+
+
+	/* Area del boton*/
+	
+	header .main-menu{ text-align: left; display: none; float: none; clear: both; max-height: 400px;
+		overflow: auto; border-top: 1px solid #ccc; }
+	
+	header .main-menu > li{ display: block; float: none; border-bottom: 1px solid #ddd; }
+	
+	header .main-menu > li:last-child{ border-bottom: 0; }
+	
+	header .main-menu li > a{ display: block; line-height: 1; height: auto; padding: 15px; background: none; }
+	
+	
+	
+	
+	/* NAV ICON */
+	
+	.menu-nav-icon{ display: inline-block; }
+
+	
+	
+	/* -------------------------------------------------- */
+	
+	.blog-area{ padding: 260px 0 20px; }
+	
+	.blog-posts .single-post{ margin-bottom: 50px; }
+
+
+
+	/* POST  del autor */
+
+	.blog-posts .post-author{ margin: 30px 0; margin-left: 20px; padding: 40px 30px; position: relative; 
+		box-shadow: 0px 5px 40px rgba(0,0,0,.2); }
+
+	.post-author .author-image{ position: static; margin: 0 auto 20px; }
+
+	.post-author .author-info{ margin-left: 0px; }
+
+
+	/* ------------------------------ */
+
+	.sidebar-section{ margin-bottom: 30px; }
+
+	
+	
+
+/* resolucion de la pantalla: 479px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 479px) {
+
+	/* ---------------------- */
+
+	body{ font-size: 14px;  }
+	
+	/* -------------------------- */
+
+	.left-area,
+	.right-area{ float: none;  }
+
+	.width-60,
+	.width-50{ width: 100%; }
+
+	.left-area li a,
+	.right-area li a{ padding: 0 10px 0 0!important; }
+
+	/* --------------------------------- */
+	
+	.single-post .icons ul.social-icons{ margin-top: 10px; }
+	
+	
+}
+
+    /* resolucion de la pantalla: 359px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 359px) {
+	
+	
+}
+
+    /* resolucion de la pantalla: 290px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 290px) {
+	
+	
+}

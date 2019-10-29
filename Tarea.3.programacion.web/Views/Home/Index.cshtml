@@ -1,0 +1,158 @@
+﻿@{
+    ViewBag.Title = "Inicio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+<link href="~/Content/HomePage/styles.css" rel="stylesheet" />
+<link href="~/Content/HomePage/responsive.css" rel="stylesheet" />
+
+}
+
+<!--PAGINA PRINCIPAL , INDEX O HOMEPAGE-->
+<style>
+    /*aqui estan los estilos de los textos  y boton del barner*/
+
+
+.contenedor-barner {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima {
+    position: relative;
+    top: 205px;
+    left: 550px;
+    background: white;
+    background-size: auto;
+    padding: 16px;
+    font-weight: 900;
+}
+
+.texto-encima-2 {
+    position: relative;
+    top: 240px;
+    right: 100PX;
+    left: 550px;
+    background: #2c2c2c;
+    text-align: center;
+}
+
+.texto-encima-3 {
+    position: relative;
+    top: 260px;
+    left: 550px;
+    background: #2c2c2c;
+    text-align: center;
+}
+
+.texto-encima-4 {
+    position: relative;
+    top: 280px;
+    left: 550px;
+    background: #2c2c2c;
+    text-align: center;
+    background-size: contain;
+}
+
+.BOTON {
+    position: relative;
+    text-decoration: none;
+    padding: 15PX;
+    font-weight: 100;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #0f787e;
+    top: 320PX;
+    left: 342px;
+    font-family: Calibri;
+}
+
+/*fin de los textos y boton**/
+
+/*bordes imagenes*/
+section {
+    margin-right: 10px;
+    border: 1px solid black;
+}
+/*fin bordes imagenes*/
+
+</style>
+
+
+<!--inicio del barner -->
+
+<div class="contenedor-barner">
+    <img style="position: absolute; top: 172px; width: 1270px; left:-65px; height:450px;" src="~/Content/img/the-beacon.jpg" /><!--imagen del barner-->
+    <!--tipo de letra primer  texto-->
+    <div style=" font-family: 'Arial Rounded MT' ;">
+        <div class="texto-encima"><h2><b>THE BEACON TO ALL MAKIND</b></h2></div>
+    </div>
+    <!--fin del primer texto-->
+    <!--color de los 3 siguientes textos-->
+    <div style="color:white;">
+        <div class="texto-encima-2"> <h3>Our websites templates are created with</h3> </div>
+        <div class="texto-encima-3"> <h3>inspiration,checked for queality and originality</h3> </div>
+        <div class="texto-encima-4"> <h3>and spectacular sliced and coded</h3> </div>
+        <!--BOTON-->
+        <a class="BOTON" href="#">READ MORE</a>
+        <!--FIN BOTON-->
+    </div>
+
+</div>
+<!--fin de los 3 textos-->
+
+    <!--fin del barner -->
+    <!--inicio 3 secciones-->
+<div class="card-deck" style="position:relative; top:400px ">
+    <div class="card">
+        <!--imagen y su borde-->
+        <section>
+            <img class="card-img-top" alt="Card image cap" src="~/Content/img/the-father.jpg" />
+        </section>
+        <div class="card-body">
+            <!--TEXTO DE CADA CARD-->
+            <div style=" font-family: 'Arial Rounded MT' ;">
+                <center><h2 class="card-title" style="position:relative; top:25px "><b>THE FATHER</b></h2></center>
+            </div>
+            <!--FIN DEL TEXTO DE CADA CARD-->
+
+        </div>
+
+    </div><!--fin primera seccion-->
+    <div class="card">
+        <!--imagen y su borde-->
+        <section>
+            <img class="card-img-top" alt="Card image cap" src="~/Content/img/the-actor.jpg" />
+        </section>
+
+        <div class="card-body">
+            <!--TEXTO DE CADA CARD-->
+            <div style=" font-family: 'Arial Rounded MT' ;">
+                <center><h2 class="card-title" style="position:relative; top:25px "><b>THE ACTOR</b></h2></center>
+            </div>
+            <!--FIN DEL TEXTO DE CADA CARD-->
+
+        </div>
+
+    </div><!--FIN SEGUNDA SECCION-->
+    <div class="card">
+
+        <!--imagen y su borde -->
+        <section>
+            <img class="card-img-top" alt="Card image cap" src="~/Content/img/the-nerd.jpg" />
+        </section>
+
+        <div class="card-body">
+            <!--TEXTO DE CADA CARD-->
+            <div style=" font-family: 'Arial Rounded MT' ;">
+                <center><h2 class="card-title" style="position:relative; top:25px "><b>THE NERD</b></h2></center>
+            </div>
+            
+            <!--FIN DEL TEXTO DE CADA CARD-->
+
+
+        </div>
+
+    </div><!--FIN DE LA 3RA SECCION-->
+  
+</div>
+    <!--FIN DE LAS 3 SECCIONES-->

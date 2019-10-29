@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--INICIO DEL HEAD-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--aqui esta el titulo de la pagina-->
+    <title>@ViewBag.Title - Mustacchio/Belkis Vasquez</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <!--fin del titulo de la pagina -->
+    <!--aca invoco las hojas de estilo-->
+    <link href="~/Content/Common.css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Common.css/ionicons.css" rel="stylesheet" />
+    <link href="~/Content/Common.css/layerslider.css" rel="stylesheet" />
+    <link href="~/Content/HomePage/responsive.css" rel="stylesheet" />
+    <link href="~/Content/HomePage/styles.css" rel="stylesheet" />
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!--FIN FONTS-->
+
+    <script src="common-js/jquery-3.1.1.min.js"></script>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="common-js/tether.min.js"></script>
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <script src="common-js/bootstrap.js"></script>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="common-js/layerslider.js"></script>
+    <script src="common-js/scripts.js"></script>
+    <!--fin de la invocacion -->
+    <style>
+        .footer {
+            width: 100%;
+            background-color: #2c2c2c;
+            padding: 23px;
+        }
+        
+
+.izquierda {
+    text-align: left;
+    color: white;
+    font-family: 'Times New Roman';
+    text-size-adjust: 300%;
+}
+
+.derecha {
+    width: 23px;
+    height: 20px;
+}
+    </style>
+</head>
+<!--FIN DEL HEADER-->
+<!--INICIO DEL BODY-->
+<body>
+    <!--inicio del header-->
+    <!--ETIQUETA HEADER CON LAS COSAS DEL MENU-->
+    <header>
+
+        <!-- Inicio  la seccion de menu y logo -->
+        <div class="middle-menu center-text">
+            <a href="#" class="logo">
+                @*aqui va el logo!*@
+                <img src="~/Content/img/logo.jpg" />
+
+            </a>
+        </div>
+
+        @*Aqui si esta el menu XD*@
+    <div class="bottom-area">
+
+        <div class="menu-nav-icon" data-nav-menu="#main-menu"><i class="ion-navicon"></i></div>
+        <div style=" font-family: 'Arial Rounded MT' ;">
+            <ul class="main-menu visible-on-click" id="main-menu">
+
+                <li>@Html.ActionLink("INICIO", "Index", "Home")</li>
+                <li>@Html.ActionLink("NOSOTROS", "Nosotros", "Home")</li>
+                <li>@Html.ActionLink("GALERIA", "Galeria", "Home")</li>
+                <li>@Html.ActionLink("BLOG", "Blog", "Home")</li>
+                <li>@Html.ActionLink("CONTACTO", "Contacto", "Home")</li>
+                </div>
+
+            </ul>
+
+        </div>
+        <!-- Fin del menu XD -->
+
+
+</header>
+    <!--FIN DEL HEADER Y SU MENU-->
+    <!--AQUI ESTA TODO LO DEL BODY!!! OBVIAMENTE EN CADA PAGINA XD-->
+    <div class="container body-content">
+        @RenderBody()
+
+    </div>
+   
+
+
+</body>
+<!--FIN DEL BODY-->
+
+<!--INICIO DEL FOOTER-->
+
+<div class="footer" style="position:relative; top:500px  ">
+
+        <!--AQUI ESTA MI NOMBRE Y MATRICULA :D -->
+        <div class="izquierda" style="position:relative; top:30px;">
+
+            <h4>2018-6504 Belkis Yazmin Vasquez Peña-Copyright</h4>
+
+        </div>
+
+        <div class="card-deck" style="position:relative; width:200px; height:40px; right:-1000px; top:auto; ">
+
+            <!--LOS ICONOS DE LAS REDES SOCIALES!!!! -->
+            <div class="card">
+                <img src="~/Content/img/Icons/icon-twitter.jpg" />
+            </div>
+            <div class="card">
+                <img src="~/Content/img/Icons/icon-facebook.jpg" />
+            </div>
+            <div class="card">
+                <img src="~/Content/img/Icons/icon-googleplus.jpg" />
+            </div>
+            <div class="card">
+                <img src="~/Content/img/Icons/icon-pinterest.jpg" />
+            </div>
+
+            <!--FIN DE LOS ICONOS DE LAS REDES SOCIALES-->
+
+
+        </div>
+  
+</div>
+<!--FIN DEL FOOTER-->
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@RenderSection("scripts", required: false)
+
+<!--AQUI ESTAN TODAS LAS SECCIONES QUE ESTARAN EN COMUN EN CADA PAGINA...-->
+
+</html>
